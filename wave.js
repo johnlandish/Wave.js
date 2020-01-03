@@ -1,5 +1,11 @@
 class Wave {
-    current_stream = ({});
+    
+  function abc(current_stream){
+      if(current_stream === undefined){
+          current_stream = {};
+      }
+  }
+    
     sources = {};
     onFileLoad;
 
