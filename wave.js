@@ -1,9 +1,7 @@
 class Wave {
     
-  function abc(current_stream){
-      if(current_stream === undefined){
+  function abc(){
           current_stream = {};
-      }
   }
     
     sources = {};
