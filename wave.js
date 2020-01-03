@@ -1,4 +1,9 @@
 class Wave {
+    current_stream = ({});
+    sources = {};
+    onFileLoad;
+
+    constructor() {}
     findSize(size) {
 
         for (var range = 1; range <= 40; range++) {
