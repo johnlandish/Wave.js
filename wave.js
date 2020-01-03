@@ -2,7 +2,7 @@ class Wave {
     
     onFileLoad
 
-    constructor() {}
+    (constructor() {})
 
     findSize(size) {
 
