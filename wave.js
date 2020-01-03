@@ -1,5 +1,5 @@
 class Wave {
-    current_stream = {};
+    var current_stream = {};
     sources = {};
     onFileLoad;
 
