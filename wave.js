@@ -1,7 +1,7 @@
 class Wave {
-    current_stream;
+    current_stream = {}
     
-    sources = {};
+    sources = {}
     onFileLoad;
 
     constructor() {}
