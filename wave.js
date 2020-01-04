@@ -704,6 +704,7 @@ class Wave {
 
         var audioCtx, analyser, source;
         if (!this.sources[e.toString()]) {
+            var AudioContext = window.AudioContext || window.webkitAudioContext;
             audioCtx = new AudioContext();
             analyser = audioCtx.createAnalyser();
 
