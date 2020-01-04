@@ -1,9 +1,6 @@
 class Wave {
     
-  function abc(){
-          current_stream = {};
-  }
-    
+  Wave.current_stream = {};
     sources = {};
     onFileLoad;
 
