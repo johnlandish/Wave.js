@@ -1,4 +1,7 @@
 class Wave {
+    current_streams() {}
+    sources() {}
+    onFileLoad
 
     constructor() {}
     findSize(size) {
