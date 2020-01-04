@@ -1,6 +1,6 @@
 class Wave {
     
-  Wave.current_stream = {};
+  (current_stream = {})
     sources = {};
     onFileLoad;
 
